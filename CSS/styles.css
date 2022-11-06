@@ -28,12 +28,11 @@ h2 {
 .navbar-brand {
   margin: 20px;
 }
-.navbar-nav {
-}
 a.nav-link {
   color: var(--primary-color);
   font-family: "Roboto Mono", monospace;
   font-weight: 700;
+  font-size: 20px;
 }
 .nav-link.active {
   color: var(--accent-color) !important;
