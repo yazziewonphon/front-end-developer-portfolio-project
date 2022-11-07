@@ -121,7 +121,7 @@ a.nav-link:hover {
     right: 30px;
   }
 }
-@media (max-width: 576px) {
+@media (max-width: 767px) {
   .weather-app-image,
   .sen-laptop-image {
     margin: 0 !important;
