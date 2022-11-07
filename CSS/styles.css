@@ -7,6 +7,7 @@ h1 {
   font-family: "Roboto Mono", monospace;
   font-weight: 700;
   margin-top: 23rem !important;
+  font-size: 96px !important;
 }
 h1,
 h2 {
@@ -16,6 +17,22 @@ h2 {
 h2 {
   padding-bottom: 20px;
   font-family: "Mhtirogla";
+}
+h4 {
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700 !important;
+  padding: 50px 0 50px 0;
+}
+footer {
+  font-family: "Mhtirogla";
+  text-align: center;
+  padding: 20px;
+}
+.wrap {
+  max-width: 1700px;
+  margin: 0 auto;
+  position: relative;
 }
 .hero {
   background-image: url("/images/Portrait.jpg");
@@ -33,9 +50,66 @@ a.nav-link {
   font-family: "Roboto Mono", monospace;
   font-weight: 700;
   font-size: 20px;
+  padding-right: 20px !important;
+  padding-bottom: 75px;
+}
+a.nav-link:hover {
+  color: var(--accent-color);
 }
 .nav-link.active {
   color: var(--accent-color) !important;
+}
+.featured-projects-main-header {
+  margin: 50px 50px 0 61px;
+}
+.featured-projects-main-header,
+.featured-side-header,
+.projects-side-header {
+  font-family: Mhtirogla;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.projects-side-header {
+  font-weight: bolder;
+}
+.featured-projects-letter {
+  margin: 0 16px 16px 16px;
+}
+.weather-app-image,
+.sen-laptop-image {
+  width: 100%;
+  height: auto;
+  margin-left: 20px;
+  box-shadow: 0 8px 10px 2px rgba(0, 0, 0, 0.3);
+}
+.app-title {
+  text-align: center;
+  margin-top: 50px !important;
+  font-family: "Roboto Mono", monospace;
+  font-size: 32px;
+  font-weight: 700;
+}
+.learn-more-button {
+  text-decoration: underline !important;
+  color: var(--secondary-color) !important;
+  font-size: 24px !important;
+}
+.learn-more-arrow {
+  width: 40px;
+  height: auto;
+}
+.footer-section-wrap {
+  margin-top: 200px;
+  border-top: 1px solid #ac7088;
+}
+.social-media {
+  width: 50px;
+}
+.source-link {
+  color: var(--secondary-color);
+}
+.source-link:hover {
+  color: var(--accent-color);
 }
 @font-face {
   font-family: Mhtirogla;
@@ -47,6 +121,19 @@ a.nav-link {
     right: 30px;
   }
 }
-@media (min-width: 1400px) {
-  
+@media (max-width: 576px) {
+  .weather-app-image,
+  .sen-laptop-image {
+    margin: 0 !important;
+  }
+  h1 {
+    font-size: 41px !important;
+  }
+  .featured-projects-main-header {
+    margin: 40px 0 0 0;
+    text-align: center;
+  }
+  .social-media {
+    margin-bottom: 20px;
+  }
 }
