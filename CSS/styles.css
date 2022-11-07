@@ -59,6 +59,12 @@ a.nav-link:hover {
 .nav-link.active {
   color: var(--accent-color) !important;
 }
+.navbar-toggler {
+  border: 1px solid #f5e8c7 !important;
+}
+.navbar-toggler-icon {
+  background-image: url("/images/Menu\ icon.png") !important;
+}
 .featured-projects-main-header {
   margin: 50px 50px 0 61px;
 }
