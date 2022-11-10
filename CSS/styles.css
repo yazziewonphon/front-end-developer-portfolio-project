@@ -31,6 +31,11 @@ h4 {
   font-weight: 700 !important;
   padding: 50px 0 50px 0;
 }
+h5 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px !important;
+  color: var(--accent-color);
+}
 footer {
   font-family: "Mhtirogla";
   text-align: center;
@@ -127,10 +132,13 @@ a.nav-link:hover {
   font-size: 32px;
   font-weight: 700;
 }
-.learn-more-button {
+.learn-more-button,
+div.submit-button {
   text-decoration: underline !important;
   color: var(--secondary-color) !important;
   font-size: 24px !important;
+  font-family: "Roboto Mono", monospace !important;
+  font-weight: 700 !important;
 }
 .learn-more-arrow {
   width: 40px;
@@ -155,6 +163,12 @@ a.nav-link:hover {
 }
 .card {
   border-color: var(--accent-color) !important;
+}
+.contact-container {
+  border: 1px solid var(--accent-color);
+}
+.form-control {
+  border: 1px solid var(--accent-color) !important;
 }
 .card-text,
 h2.accordion-header,
