@@ -58,7 +58,7 @@ footer {
   height: auto;
 }
 .about-hero {
-  background-image: url("");
+  background-image: url("/images/Lake\ image\ from\ 2003.jpg");
 }
 .navbar-brand {
   margin: 20px;
@@ -92,6 +92,14 @@ a.nav-link:hover {
   font-weight: 700;
   font-size: 96px;
   margin-top: -95px;
+}
+.project-title {
+  font-size: 32px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+  color: var(--accent-color);
+  padding: 18px 16px;
+  text-align: center;
 }
 .introduction {
   font-family: "Roboto Mono", monospace;
@@ -172,8 +180,7 @@ div.submit-button {
 }
 .card-text,
 h2.accordion-header,
-.accordion-body,
-div.coming-soon {
+.accordion-body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -213,6 +220,8 @@ a.launch-app-link:hover,
 }
 div.coming-soon {
   margin: 90px 0 0 0;
+  font-family: "Mhtirogla";
+  font-size: 18px;
 }
 .footer-section-wrap {
   margin-top: 200px;
