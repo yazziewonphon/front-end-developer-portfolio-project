@@ -22,6 +22,8 @@ h3 {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   text-align: justify;
+  font-size: 18px !important;
+  line-height: 2rem !important;
 }
 h4 {
   text-align: center;
@@ -89,6 +91,7 @@ a.nav-link:hover {
 .introduction {
   font-family: "Roboto Mono", monospace;
   font-weight: 700;
+  font-size: 24px;
 }
 .olive-portrait {
   width: 100%;
@@ -134,7 +137,7 @@ a.nav-link:hover {
   height: auto;
 }
 .more-about-me {
-  font-size: 27px;
+  font-size: 18px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   text-align: justify;
@@ -149,6 +152,53 @@ a.nav-link:hover {
   font-weight: 700 !important;
   color: var(--secondary-color) !important;
   font-size: 18px !important;
+}
+.card {
+  border-color: var(--accent-color) !important;
+}
+.card-text,
+h2.accordion-header,
+.accordion-body,
+div.coming-soon {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+.accordion-item {
+  border-color: var(--accent-color) !important;
+}
+button.accordion-button {
+  box-shadow: none !important;
+}
+.accordion-button.collapsed {
+  color: var(--accent-color);
+}
+.accordion-button::after {
+  background-image: url("/images/arrow-pointing-down.png") !important;
+}
+.accordion-button:not(.collapsed) {
+  color: var(--accent-color) !important;
+  background-color: rgba(172, 112, 136, 0.15) !important;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url("/images/arrow-pointing-down.png") !important;
+}
+a.launch-app-link,
+.launch-open-source-link {
+  color: var(--secondary-color);
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+}
+a.launch-app-link:hover,
+.launch-open-source-link:hover {
+  color: var(--accent-color);
+}
+.project-date {
+  font-family: "Roboto Mono", monospace;
+  padding: 6px 12px;
+}
+div.coming-soon {
+  margin: 90px 0 0 0;
 }
 .footer-section-wrap {
   margin-top: 200px;
