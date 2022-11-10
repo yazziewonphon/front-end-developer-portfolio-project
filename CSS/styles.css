@@ -18,6 +18,11 @@ h2 {
   padding-bottom: 20px;
   font-family: "Mhtirogla";
 }
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-align: justify;
+}
 h4 {
   text-align: center;
   font-family: "Roboto Mono", monospace;
@@ -36,11 +41,17 @@ footer {
 }
 .hero {
   background-image: url("/images/Portrait.jpg");
+}
+.hero,
+.about-hero {
   background-repeat: none;
   background-position: center;
   background-size: cover;
   width: 100%;
   height: auto;
+}
+.about-hero {
+  background-image: url("");
 }
 .navbar-brand {
   margin: 20px;
@@ -64,6 +75,24 @@ a.nav-link:hover {
 }
 .navbar-toggler-icon {
   background-image: url("/images/Menu\ icon.png") !important;
+}
+.second-about-header {
+  font-size: 96px;
+  margin-top: -37px;
+}
+.third-about-header {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+  font-size: 96px;
+  margin-top: -95px;
+}
+.introduction {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+}
+.olive-portrait {
+  width: 100%;
+  height: auto;
 }
 .featured-projects-main-header {
   margin: 50px 50px 0 61px;
@@ -103,6 +132,23 @@ a.nav-link:hover {
 .learn-more-arrow {
   width: 40px;
   height: auto;
+}
+.more-about-me {
+  font-size: 27px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  text-align: justify;
+}
+.certification-links {
+  flex-direction: column;
+}
+.certification-link {
+  text-align: left !important;
+  text-decoration: underline !important;
+  font-family: "Roboto Mono", monospace !important;
+  font-weight: 700 !important;
+  color: var(--secondary-color) !important;
+  font-size: 18px !important;
 }
 .footer-section-wrap {
   margin-top: 200px;
