@@ -261,4 +261,10 @@ div.coming-soon {
   .social-media {
     margin-bottom: 20px;
   }
+  .more-about-me {
+    margin-top: 40px !important;
+  }
+  .certification-link {
+    font-size: 16px !important;
+  }
 }
