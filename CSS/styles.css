@@ -69,7 +69,6 @@ a.nav-link {
   font-weight: 700;
   font-size: 20px;
   padding-right: 20px !important;
-  padding-bottom: 75px;
 }
 a.nav-link:hover {
   color: var(--accent-color);
@@ -157,6 +156,7 @@ div.submit-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   text-align: justify;
+  line-height: 1.7;
 }
 .certification-links {
   flex-direction: column;
@@ -177,6 +177,10 @@ div.submit-button {
 }
 .form-control {
   border: 1px solid var(--accent-color) !important;
+}
+.card-text {
+  text-align: justify;
+  line-height: 1.7;
 }
 .card-text,
 h2.accordion-header,
