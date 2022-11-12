@@ -147,7 +147,8 @@ div.submit-button {
   font-family: "Roboto Mono", monospace !important;
   font-weight: 700 !important;
 }
-.learn-more-arrow {
+.learn-more-arrow,
+.documents-arrow {
   width: 40px;
   height: auto;
 }
@@ -218,6 +219,10 @@ a.launch-app-link:hover,
 .launch-open-source-link:hover {
   color: var(--accent-color);
 }
+a.launch-app-link:visited,
+.launch-open-source-link:visited {
+  color: var(--accent-color);
+}
 .project-date {
   font-family: "Roboto Mono", monospace;
   padding: 6px 12px;
@@ -282,5 +287,21 @@ div.coming-soon {
   }
   .certification-link {
     font-size: 16px !important;
+  }
+  .about-image {
+    width: 250px;
+    height: auto;
+  }
+}
+@media (max-width: 991px) {
+  h1 {
+    font-size: 72px !important;
+  }
+  .documents-arrow {
+    width: 30px;
+    height: auto;
+  }
+  .certification-link {
+    font-size: 14px !important;
   }
 }
