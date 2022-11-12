@@ -16,7 +16,7 @@ h2 {
 }
 h2 {
   padding-bottom: 20px;
-  font-family: "Mhtirogla";
+  font-family: "Mhtirogla", Fallback, sans-serif;
 }
 h3 {
   font-family: "Roboto", sans-serif;
@@ -37,7 +37,7 @@ h5 {
   color: var(--accent-color);
 }
 footer {
-  font-family: "Mhtirogla";
+  font-family: "Mhtirogla", Fallback, sans-serif;
   text-align: center;
   padding: 20px;
 }
@@ -115,7 +115,7 @@ a.nav-link:hover {
 .featured-projects-main-header,
 .featured-side-header,
 .projects-side-header {
-  font-family: "Mhtirogla";
+  font-family: "Mhtirogla", Fallback, sans-serif;
   font-size: 24px;
   text-transform: uppercase;
 }
@@ -224,7 +224,7 @@ a.launch-app-link:hover,
 }
 div.coming-soon {
   margin: 90px 0 0 0;
-  font-family: "Mhtirogla";
+  font-family: "Mhtirogla", Fallback, sans-serif;
   font-size: 18px;
 }
 .footer-section-wrap {
