@@ -247,9 +247,9 @@ div.coming-soon {
 }
 @font-face {
   font-family: Mhtirogla;
-  src: url("MHTIROGLA.ttf");
-  src: url("mhtirogla-webfont.woff") format("woff"),
-    url("mhtirogla-webfont.woff2") format("woff2");
+  src: url("mhtirogla-webfont.woff2") format("woff2"),
+    url("mhtirogla-webfont.woff") format("woff"),
+    url("MHTIROGLA.ttf") format("truetype");
 }
 @media (max-width: 992px) {
   .navbar-toggler {
