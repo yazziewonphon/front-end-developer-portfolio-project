@@ -170,14 +170,29 @@ div.submit-button {
   color: var(--secondary-color) !important;
   font-size: 18px !important;
 }
+.contact-container {
+  display: flex;
+  justify-content: center;
+}
+.contact-banner {
+  width: 900px;
+  height: auto;
+  padding: 20px;
+}
+.fa-circle,
+.email {
+  color: var(--accent-color);
+}
+a.email {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+  font-size: 20px;
+}
+a.email:hover {
+  color: var(--secondary-color);
+}
 .card {
   border-color: var(--accent-color) !important;
-}
-.contact-container {
-  border: 1px solid var(--accent-color);
-}
-.form-control {
-  border: 1px solid var(--accent-color) !important;
 }
 .card-text {
   text-align: justify;
