@@ -16,7 +16,7 @@ h2 {
 }
 h2 {
   padding-bottom: 20px;
-  font-family: "Mhtirogla", Fallback;
+  font-family: "Mhtirogla";
 }
 h3 {
   font-family: "Roboto", sans-serif;
@@ -37,7 +37,7 @@ h5 {
   color: var(--accent-color);
 }
 footer {
-  font-family: "Mhtirogla", Fallback;
+  font-family: "Mhtirogla";
   text-align: center;
   padding: 20px;
 }
@@ -115,7 +115,7 @@ a.nav-link:hover {
 .featured-projects-main-header,
 .featured-side-header,
 .projects-side-header {
-  font-family: "Mhtirogla", Fallback;
+  font-family: "Mhtirogla";
   font-size: 24px;
   text-transform: uppercase;
 }
@@ -224,7 +224,7 @@ a.launch-app-link:hover,
 }
 div.coming-soon {
   margin: 90px 0 0 0;
-  font-family: "Mhtirogla", Fallback;
+  font-family: "Mhtirogla";
   font-size: 18px;
 }
 .footer-section-wrap {
@@ -246,10 +246,15 @@ div.coming-soon {
   color: var(--accent-color);
 }
 @font-face {
-  font-family: Mhtirogla;
-  src: url("mhtirogla-webfont.woff2") format("woff2"),
+  font-family: "Mhtirogla";
+  src: url("mhtirogla-webfont.eot");
+  src: url("mhtirogla-webfont.eot?#iefix") format("embedded-opentype"),
+    url("mhtirogla-webfont.woff2") format("woff2"),
     url("mhtirogla-webfont.woff") format("woff"),
+    url("mhtirogla-webfont.svg#mhtiroglamedium") format("svg"),
     url("MHTIROGLA.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 @media (max-width: 992px) {
   .navbar-toggler {
