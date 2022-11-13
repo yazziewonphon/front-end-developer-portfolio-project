@@ -269,10 +269,12 @@ div.coming-soon {
   font-family: "Mhtirogla";
   src: url("mhtirogla-webfont.eot");
   src: url("mhtirogla-webfont.eot?#iefix") format("embedded-opentype"),
-    url("mhtirogla-webfont.woff2") format("woff2"),
-    url("mhtirogla-webfont.woff") format("woff"),
+    url("https://github.com/yazziewonphon/Mhtirogla-font/blob/main/mhtirogla-webfont.woff2")
+      format("woff2"),
+    /*url("mhtirogla-webfont.woff2") format("woff2"),*/
+      url("mhtirogla-webfont.woff") format("woff"),
     /*url("mhtirogla-webfont.svg#mhtiroglamedium") format("svg"),*/
-    url("https://github.com/yazziewonphon/Mhtirogla-font/blob/main/mhtirogla-webfont.svg")
+      url("https://github.com/yazziewonphon/Mhtirogla-font/blob/main/mhtirogla-webfont.svg")
       format("svg"),
     url("MHTIROGLA.ttf") format("truetype");
   font-weight: normal;
