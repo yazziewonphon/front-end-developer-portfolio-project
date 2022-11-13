@@ -265,21 +265,6 @@ div.coming-soon {
 .source-link:hover {
   color: var(--accent-color);
 }
-@font-face {
-  font-family: "Mhtirogla";
-  src: url("mhtirogla-webfont.eot");
-  src: url("mhtirogla-webfont.eot?#iefix") format("embedded-opentype"),
-    url("https://github.com/yazziewonphon/Mhtirogla-font/blob/main/mhtirogla-webfont.woff2")
-      format("woff2"),
-    /*url("mhtirogla-webfont.woff2") format("woff2"),*/
-      url("mhtirogla-webfont.woff") format("woff"),
-    /*url("mhtirogla-webfont.svg#mhtiroglamedium") format("svg"),*/
-      url("https://github.com/yazziewonphon/Mhtirogla-font/blob/main/mhtirogla-webfont.svg")
-      format("svg"),
-    url("MHTIROGLA.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
 @media (max-width: 992px) {
   .navbar-toggler {
     position: relative;
@@ -324,3 +309,4 @@ div.coming-soon {
     font-size: 14px !important;
   }
 }
+@import "https://raw.githubusercontent.com/yazziewonphon/Mhtirogla-font-2/main/stylesheet.css";
